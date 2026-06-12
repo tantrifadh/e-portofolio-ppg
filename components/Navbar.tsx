@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="fixed w-full z-[100] bg-white/90 backdrop-blur-md border-b">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Brand */}
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-700">
+        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-violet-700">
           <GraduationCap size={32} />
           <span>E-Portfolio</span>
         </Link>

@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "E-Portfolio PPL | Tantri Fadhillah A.",
+  title: "E-Portfolio PPG | Tantri Fadhillah",
   description: "Portfolio Digital PPG Calon Guru",
 };
 

@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Award, BookOpen, Users, FileCheck } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,20 +13,20 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           className="flex-1 space-y-6"
         >
-          <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
+          <span className="px-4 py-2 bg-violet-50 text-violet-700 rounded-full text-sm font-semibold">
             Mahasiswa PPG Calon Guru 2026
           </span>
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold leading-tight text-white">
             E-Portfolio <br /> 
-            <span className="text-blue-600">PPL Terbimbing</span>
+            <span className="text-violet-600">PPL Terbimbing</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-lg">
             Tantri Fadhillah Asri S.Kom<br />
             Bidang Studi: Informatika <br />
-            Sekolah PPL: SMA Negeri 2 Salatiga
+            Sekolah PPL: SMK Negeri 2 Salatiga
           </p>
           <div className="flex gap-4">
-            <button className="bg-yellow-400 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
+            <button className="bg-violet-400 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
               Lihat Artefak
             </button>
             <button className="border border-slate-300 px-8 py-3 rounded-lg hover:bg-slate-100 transition">
@@ -39,7 +40,7 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           className="flex-1 relative"
         >
-          <div className="w-80 h-80 md:w-[450px] md:h-[450px] bg-blue-600 rounded-2xl rotate-3 absolute -z-10 shadow-xl"></div>
+          <div className="w-80 h-80 md:w-[450px] md:h-[450px] bg-violet-600 rounded-2xl rotate-3 absolute -z-10 shadow-xl"></div>
           <img 
             src="/images/profile.jpg" 
             alt="Foto Profil" 

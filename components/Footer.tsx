@@ -60,29 +60,22 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-              Kontak & Lokasi
+              Kontak & Lokasi PPL
             </h4>
             <div className="space-y-4 text-sm text-slate-400">
               <div className="flex items-start gap-3">
                 <School size={20} className="text-blue-500 shrink-0" />
                 <p>
                   <span className="text-white block font-medium">Sekolah PPL:</span>
-                  SMA Negeri 1 Jakarta <br />
-                  Jl. Budi Utomo No.7, Jakarta Pusat
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <Mail size={20} className="text-blue-500 shrink-0" />
-                <p>
-                  <span className="text-white block font-medium">Email Akademik:</span>
-                  nama.mahasiswa@ppg.ac.id
+                  SMK Negeri 2 Salatiga <br />
+                  Jl. Parikesit, Dukuh, Kec. Sidomukti, Kota Salatiga, Jawa Tengah
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-500 shrink-0" />
                 <p>
                   <span className="text-white block font-medium">LPTK:</span>
-                  Universitas Negeri Jakarta
+                  Universitas Kristen Satya Wacana
                 </p>
               </div>
             </div>
@@ -90,17 +83,7 @@ export default function Footer() {
 
           {/* Kolom 4: Sertifikasi & Akreditasi */}
           <div className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
-            <h4 className="text-white font-bold mb-4 text-sm">Status Akademik</h4>
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 font-bold text-xs">
-                  PPG
-                </div>
-                <div>
-                  <p className="text-xs text-white font-bold">Mahasiswa PPG</p>
-                  <p className="text-[10px] text-slate-500 uppercase tracking-widest">Gelombang 1 - 2024</p>
-                </div>
-              </div>
               <p className="text-xs leading-relaxed text-slate-500 italic">
                 "Pendidikan adalah senjata paling mematikan di dunia, karena dengan pendidikan Anda bisa mengubah dunia."
               </p>
@@ -111,7 +94,7 @@ export default function Footer() {
         {/* Baris Bawah: Copyright & Back to Top */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-slate-500">
-            <p>© {new Date().getFullYear()} <span className="text-slate-300 font-medium">Nama Mahasiswa, S.Pd</span>. Seluruh Hak Cipta Dilindungi.</p>
+            <p>© {new Date().getFullYear()} <span className="text-slate-300 font-medium">Tantri Fadhillah Asri S.Kom</span>. Seluruh Hak Cipta Dilindungi.</p>
           </div>
           
           <div className="flex items-center gap-6">
