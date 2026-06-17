@@ -17,11 +17,11 @@ export default function ArtifactCard({ item }: any) {
       {/* BAGIAN ATAS: Deskripsi Singkat (Ganti Gambar) */}
       <div className={`relative h-48 p-8 ${getBgColor(item.category)} transition-colors duration-500`}>
         {/* Badge Kategori */}
-        <div className="absolute top-4 left-4">
+        {/* <div className="absolute top-4 left-4">
           <span className="px-3 py-1 bg-white/90 backdrop-blur shadow-sm rounded-full text-[10px] font-bold text-slate-800 uppercase tracking-widest">
             {item.category}
           </span>
-        </div>
+        </div> */}
 
         {/* Konten Deskripsi Singkat sebagai Pengganti Gambar */}
         <div className="flex items-center justify-center h-full text-center">

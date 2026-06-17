@@ -13,6 +13,7 @@ export const ARTEFAK_LIST = [
   {
     id: 1,
     title: "Modul Ajar Project IoT kelas X",
+    description: "Modul ajar ini disusun sebagai panduan pembelajaran materi Project IoT berbasis ESP32/ESP8266 untuk peserta didik kelas X TKJ.",
     pdfUrl: "/docs/modul_ajar.pdf",
     tags: ["IoT", "Informatika"],   // Tambahkan ini agar .map tidak error
     analysis: {
@@ -26,6 +27,7 @@ export const ARTEFAK_LIST = [
   {
     id: 2,
     title: "Media PPT IoT",
+    description: "Media pembelajaran berupa PowerPoint digunakan untuk membantu penyampaian materi Project IoT secara lebih menarik dan mudah dipahami.",
     pdfUrl: "/docs/media_ajar.pdf",
     tags: ["Wordwall", "Evaluasi"],
     analysis: {
@@ -39,6 +41,7 @@ export const ARTEFAK_LIST = [
   {
     id: 3,
     title: "LKPD Siswa Minggu 1-4",
+    description: "LKPD disusun sebagai panduan kegiatan peserta didik selama proses pembelajaran dan pengerjaan proyek IoT",
     pdfUrl: "/docs/lkpd_iot.pdf",
     tags: ["LKPD"],
     analysis: {
