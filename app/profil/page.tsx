@@ -16,15 +16,11 @@ export default function ProfilPage() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-slate-600">
                 <User size={18} className="text-blue-600" />
-                <span>Nama Anda, S.Pd</span>
-              </div>
-              <div className="flex items-center gap-3 text-slate-600">
-                <MapPin size={18} className="text-blue-600" />
-                <span>Jakarta, 12 Mei 1998</span>
+                <span>Tantri Fadhillah Asri S.Kom</span>
               </div>
               <div className="flex items-center gap-3 text-slate-600">
                 <GraduationCap size={18} className="text-blue-600" />
-                <span>PPG Calon Guru Gel. 1 - 2024</span>
+                <span>PPG Calon Guru Gel. 1 - 2026</span>
               </div>
             </div>
           </div>
@@ -34,12 +30,14 @@ export default function ProfilPage() {
         <div className="md:col-span-2 space-y-8">
           <section className="bg-white p-8 rounded-2xl border shadow-sm">
             <h1 className="text-3xl font-bold mb-6 text-blue-700">Profil Mahasiswa</h1>
-            <div className="prose prose-slate max-w-none">
-              <h3 className="flex items-center gap-2"><Target className="text-blue-600" /> Inspirasi Menjadi Guru</h3>
-              <p>Tuliskan di sini motivasi Anda menjadi guru. Misalnya: Berawal dari kecintaan saya terhadap dunia pendidikan dan keinginan untuk memberikan kontribusi nyata bagi masa depan generasi muda di daerah asal saya...</p>
+            <div className="prose prose-slate max-w-none text-slate-900">
+              <h3 className="flex items-center gap-2"><Target className="text-black-900" /> Inspirasi Menjadi Guru</h3>
+              <p>Ketertarikan saya menjadi guru berawal saat menjadi asisten laboratorium komputer di kampus. Saat itu, saya sering membantu mahasiswa yang masih kesulitan menggunakan komputer dan memahami materi praktikum. 
+                Dari pengalaman tersebut, saya merasa senang ketika bisa membantu orang lain belajar dan memahami sesuatu yang sebelumnya dianggap sulit.</p>
               
-              <h3 className="mt-6">Tujuan Menjadi Guru Profesional</h3>
-              <p>Saya berkomitmen untuk menjadi pendidik yang tidak hanya mengajar materi, tetapi mampu melakukan inovasi pembelajaran yang relevan dengan perkembangan zaman (TPACK) serta berpihak pada peserta didik.</p>
+              <h3 className="flex items-center gap-2 mt-6"><Target className="text-black-900" />Tujuan Menjadi Guru Profesional</h3>
+              <p>Saya ingin menjadi guru yang dapat membimbing peserta didik dengan sabar dan membantu mereka mengembangkan kemampuan, khususnya di bidang teknologi dan informatika. 
+                Selain menyampaikan materi, saya juga ingin menjadi pendidik yang mampu memotivasi peserta didik agar lebih percaya diri dalam belajar dan meraih cita-citanya.</p>
             </div>
           </section>
 
@@ -48,8 +46,8 @@ export default function ProfilPage() {
             <h2 className="text-2xl font-bold">Riwayat Pendidikan</h2>
             <div className="border-l-2 border-blue-200 ml-4 space-y-8">
               {[
-                { year: "2024", title: "PPG Calon Guru", school: "Universitas Negeri XYZ" },
-                { year: "2016 - 2020", title: "S1 Pendidikan Matematika", school: "Universitas ABC" },
+                { year: "2026", title: "PPG Informatika", school: "Universitas Kristen Satya Wacana" },
+                { year: "2020 - 2024", title: "S1 Teknik Informatika", school: "Universitas Dian Nuswantoro" },
               ].map((item, i) => (
                 <div key={i} className="relative pl-8">
                   <div className="absolute -left-[9px] top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-white"></div>
