@@ -8,8 +8,8 @@ export default function ProfilPage() {
       <div className="grid md:grid-cols-3 gap-12">
         {/* Foto & Identitas Dasar */}
         <div className="space-y-6">
-          <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-            <img src="/images/profile.jpg" className="w-full h-full object-cover" />
+          <div className="aspect-square rounded-3xl bg-p-indigo flex items-center justify-center shadow-xl border-4 border-white">
+            <User size={120} className="text-p-indigo-text opacity-40" />
           </div>
           <div className="bg-white p-6 rounded-2xl border space-y-4">
             <h2 className="text-xl font-bold border-b pb-2">Identitas Diri</h2>

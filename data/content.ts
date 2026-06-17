@@ -12,25 +12,22 @@ export const NAV_LINKS = [
 export const ARTEFAK_LIST = [
   {
     id: 1,
-    title: "Modul Ajar Matematika - SPLDV",
-    category: "Perangkat",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500",
-    theories: ["TPACK", "Problem Based Learning", "Diferensiasi Proses"],
+    title: "Modul Ajar Project IoT kelas X",
+    pdfUrl: "/docs/modul_ajar.pdf",
+    tags: ["IoT", "Informatika"],   // Tambahkan ini agar .map tidak error
     analysis: {
-      context: "Disusun untuk kelas VIII SMP dengan mempertimbangkan gaya belajar visual dan auditori.",
-      strengths: "Penggunaan LKPD berbasis teknologi sangat efektif memicu diskusi aktif siswa.",
-      weaknesses: "Manajemen waktu pada fase sintaks keempat PBL perlu diperketat.",
-      reflection: "Saya menyadari bahwa peran fasilitator lebih krusial daripada sekadar pemberi materi.",
-      improvement: "Akan menggunakan timer visual di proyektor untuk mengontrol durasi diskusi kelompok."
+      context: "Modul ajar ini disusun untuk mendukung pembelajaran Dasar Program Keahlian (DPK) kelas X TKJ pada materi Internet of Things (IoT). Pembelajaran dirancang menggunakan model Project Based Learning (PjBL) agar peserta didik tidak hanya memahami konsep IoT, tetapi juga mampu merancang, membuat, dan mempresentasikan proyek IoT secara berkelompok.",
+      strengths: "Modul ajar ini memberikan pengalaman belajar yang berpusat pada peserta didik melalui kegiatan proyek nyata. Selain mengembangkan keterampilan teknis, pembelajaran juga melatih kemampuan kolaborasi, komunikasi, berpikir kritis, dan kreativitas peserta didik.",
+      weaknesses: "Kendala yang dihadapi dalam penyusunan modul adalah menyesuaikan alokasi waktu dengan kompleksitas proyek serta memastikan ketersediaan alat dan bahan yang dibutuhkan oleh setiap kelompok.",
+      reflection: "Melalui penyusunan modul ini, saya belajar bahwa perencanaan pembelajaran harus mempertimbangkan karakteristik peserta didik, kesiapan sarana, dan tujuan pembelajaran agar kegiatan belajar dapat berjalan secara efektif.",
+      improvement: "Ke depannya, modul ini akan disempurnakan dengan menambahkan alternatif proyek yang lebih beragam, penguatan diferensiasi pembelajaran, serta penggunaan media interaktif untuk meningkatkan keterlibatan peserta didik dalam pembelajaran."
     },
-    tags: ["PBL", "TPACK", "SMP"]
+    
   },
   {
     id: 2,
-    title: "Media Interaktif Wordwall",
-    category: "Media",
-    image: "https://images.unsplash.com/photo-1610484826967-09c5720778c7?q=80&w=500",
-    theories: ["Game-based Learning", "Konstruktivisme"],
+    title: "Media PPT IoT",
+    pdfUrl: "/docs/media_ajar.pdf",
     analysis: {
       context: "Media evaluasi formatif yang dirancang untuk mengurangi kecemasan siswa saat ujian.",
       strengths: "Meningkatkan partisipasi siswa hingga 90% di dalam kelas.",
@@ -42,10 +39,8 @@ export const ARTEFAK_LIST = [
   },
   {
     id: 3,
-    title: "Hasil LKPD Siswa Berdiferensiasi",
-    category: "Hasil Siswa",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500",
-    theories: ["Culturally Responsive Teaching", "Scaffolding"],
+    title: "LKPD Siswa Minggu 1-4",
+    pdfUrl: "/docs/lkpd_iot.pdf",
     analysis: {
       context: "Hasil kerja siswa yang menunjukkan perbedaan tingkat pemahaman (Tinggi, Sedang, Rendah).",
       strengths: "Siswa kelompok rendah merasa terbantu dengan scaffolding yang diberikan.",
@@ -53,7 +48,7 @@ export const ARTEFAK_LIST = [
       reflection: "Keadilan dalam mengajar bukan berarti memberi hal yang sama, tapi memberi apa yang dibutuhkan.",
       improvement: "Menyiapkan 'Extension Task' bagi siswa yang selesai lebih cepat."
     },
-    tags: ["LKPD", "Diferensiasi"]
+    tags: ["LKPD"]
   }
 ];
 

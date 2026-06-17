@@ -20,7 +20,7 @@ export default function ArtefakPage() {
       <h1 className="text-4xl font-bold mb-8">Artefak Pembelajaran</h1>
 
       {/* Filter Chips */}
-      <div className="flex flex-wrap gap-2 mb-10">
+      {/* <div className="flex flex-wrap gap-2 mb-10">
         {categories.map(cat => (
           <button 
             key={cat}
@@ -32,7 +32,7 @@ export default function ArtefakPage() {
             {cat}
           </button>
         ))}
-      </div>
+      </div> */}
 
       {/* Grid Card */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
