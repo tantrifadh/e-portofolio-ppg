@@ -21,34 +21,33 @@ export const ARTEFAK_LIST = [
       weaknesses: "Kendala yang dihadapi dalam penyusunan modul adalah menyesuaikan alokasi waktu dengan kompleksitas proyek serta memastikan ketersediaan alat dan bahan yang dibutuhkan oleh setiap kelompok.",
       reflection: "Melalui penyusunan modul ini, saya belajar bahwa perencanaan pembelajaran harus mempertimbangkan karakteristik peserta didik, kesiapan sarana, dan tujuan pembelajaran agar kegiatan belajar dapat berjalan secara efektif.",
       improvement: "Ke depannya, modul ini akan disempurnakan dengan menambahkan alternatif proyek yang lebih beragam, penguatan diferensiasi pembelajaran, serta penggunaan media interaktif untuk meningkatkan keterlibatan peserta didik dalam pembelajaran."
-    },
-    
+    }
   },
   {
     id: 2,
     title: "Media PPT IoT",
     pdfUrl: "/docs/media_ajar.pdf",
+    tags: ["Wordwall", "Evaluasi"],
     analysis: {
       context: "Media evaluasi formatif yang dirancang untuk mengurangi kecemasan siswa saat ujian.",
       strengths: "Meningkatkan partisipasi siswa hingga 90% di dalam kelas.",
       weaknesses: "Ketergantungan pada koneksi internet sekolah yang terkadang tidak stabil.",
       reflection: "Siswa lebih cepat memahami konsep melalui trial and error dalam game.",
       improvement: "Menyediakan versi offline (cetak) sebagai backup jika internet bermasalah."
-    },
-    tags: ["Wordwall", "Evaluasi"]
+    }
   },
   {
     id: 3,
     title: "LKPD Siswa Minggu 1-4",
     pdfUrl: "/docs/lkpd_iot.pdf",
+    tags: ["LKPD"],
     analysis: {
       context: "Hasil kerja siswa yang menunjukkan perbedaan tingkat pemahaman (Tinggi, Sedang, Rendah).",
       strengths: "Siswa kelompok rendah merasa terbantu dengan scaffolding yang diberikan.",
       weaknesses: "Kelompok tinggi butuh tantangan lebih agar tidak cepat bosan.",
       reflection: "Keadilan dalam mengajar bukan berarti memberi hal yang sama, tapi memberi apa yang dibutuhkan.",
       improvement: "Menyiapkan 'Extension Task' bagi siswa yang selesai lebih cepat."
-    },
-    tags: ["LKPD"]
+    }
   }
 ];
 
