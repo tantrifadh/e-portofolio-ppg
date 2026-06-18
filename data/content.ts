@@ -4,8 +4,9 @@ export const NAV_LINKS = [
   { name: "Profil", href: "/profil" },
   { name: "Artefak", href: "/artefak" },
   { name: "Penilaian", href: "/penilaian" },
-  { name: "Filosofi", href: "/filosofi" },
   { name: "Dokumentasi", href: "/dokumentasi" },
+  { name: "Misi", href: "/misi" },
+  { name: "E-Portofolio 2", href: "/e-portofolio-2" },
 ];
 
 // 2. Data Artefak & Analisis Lengkap
@@ -60,3 +61,121 @@ export const DATA_NILAI = [
   { siklus: "Siklus 2", nilai: 88, catatan: "Penggunaan media sudah sangat interaktif dan membantu siswa." },
   { siklus: "Siklus 3", nilai: 95, catatan: "Sangat baik dalam menerapkan pembelajaran berdiferensiasi." },
 ];
+
+// 4. Data Dokumentasi 
+
+export const DOKUMENTASI_LIST = [
+  {
+    id: 1,
+    title: "Diskusi Sebelum Melakukan Proyek IoT",
+    category: "Mengajar",
+    description: "Diskusi dengan siswa terkait apa itu IoT",
+    images: ["/images/diskusi_sebelum_iot.jpg"],
+  },
+  {
+    id: 2,
+    title: "Pendampingan Praktik IoT",
+    category: "Mengajar",
+    description: "Mendampingi siswa kelas X dalam prakti proyek IoT",
+    images: ["/images/mendampingi_siswa_praktik.jpg",
+      "/images/mendampingi_siswa_praktik2.jpg",
+      "/images/mendampingi_siswa_praktik3.jpg",
+    ],
+  },
+  {
+    id: 3,
+    title: "Mendampingi Siswa Secara Scaffolding",
+    category: "Mengajar",
+    description: "Mendampingi siswa dengan memberikan scaffolding agar siswa dapat menyelesaikan proyek IoT dengan baik",
+    images: ["/images/mendampingi_siswa_praktik1.jpg"],
+  },
+  {
+    id: 4,
+    title: "Presentasi Hasil Proyek IoT",
+    category: "Mengajar",
+    description: "Siswa mempresentasika hasil proyek IoT di Aula SMKN 2 Salatiga",
+    images: ["/images/presentasi_hasil.jpg"],
+  },
+  {
+    id: 5,
+    title: "Contoh Proyek IoT Siswa",
+    category: "Mengajar",
+    description: "Beberapa contoh proyek IoT yang telah dibuat oleh siswa di kelas X TKJ",
+    images: ["/images/hasil_projek1.jpg",
+      "/images/hasil_projek2.jpg",
+      "/images/hasil_projek3.jpg",
+      "/images/hasil_projek4.jpg",
+    ],
+  },
+  {
+    id: 6,
+    title: "Diskusi dengan Guru Pamong dan DPL",
+    category: "Diskusi",
+    description: "Beberapa contoh proyek IoT yang telah dibuat oleh siswa di kelas X TKJ",
+    images: ["/images/diskusi-guru-pamong.jpeg",
+      "/images/diskusi_dpl.jpeg",
+    ],
+  },
+];
+
+// data/content.ts
+
+export const DATA_PENILAIAN = [
+  {
+    id: 1,
+    title: "Lampiran 7: Penilaian Perangkat Pembelajaran",
+    category: "Administrasi",
+    pdfUrl: "/docs/Lampiran_7.pdf",
+    score: 92,
+    outline: [
+      "Siklus 1: Fokus pada kesesuaian tujuan pembelajaran dengan ATP.",
+      "Siklus 2: Penguatan pada integrasi teknologi (TPACK) dalam media pembelajaran.",
+      "Siklus 3: Pengembangan instrumen penilaian HOTS dan LKPD berdiferensiasi."
+    ]
+  },
+  {
+    id: 2,
+    title: "Lampiran 8: Penilaian Praktik Mengajar",
+    category: "Praktik Lapangan",
+    pdfUrl: "/docs/Lampiran_8.pdf",
+    score: 95,
+    outline: [
+      "Siklus 1: Penyesuaian diri dengan karakteristik siswa dan manajemen kelas dasar.",
+      "Siklus 2: Penerapan model PjBL secara utuh dengan bantuan media interaktif.",
+      "Siklus 3: Kemandirian penuh dalam mengelola kelas dan melakukan refleksi on-the-spot."
+    ]
+  }
+];
+
+// Data E-Porotfolio 2
+
+export const MISI_DATA = {
+  visi: "Menjadi pendidik Informatika yang inovatif, adaptif, dan mampu menuntun peserta didik mencapai kemandirian digital berdasarkan nilai-nilai luhur Pancasila.",
+  misi: [
+    "Mengembangkan perangkat pembelajaran yang relevan dengan perkembangan teknologi terkini (TPACK).",
+    "Menciptakan lingkungan belajar yang aman, nyaman, dan berpihak pada keunikan setiap individu.",
+    "Membangun kolaborasi aktif dengan rekan sejawat dan komunitas praktisi untuk pengembangan diri.",
+    "Mengintegrasikan pendidikan karakter dalam setiap proses pembelajaran digital."
+  ],
+  kompetensi: [
+    { title: "Pedagogik", desc: "Menguasai teori belajar dan prinsip pembelajaran yang mendidik.", icon: "BookOpen", color: "bg-p-indigo text-p-indigo-text" },
+    { title: "Profesional", desc: "Menguasai materi Informatika secara luas dan mendalam.", icon: "Cpu", color: "bg-p-emerald text-p-emerald-text" },
+    { title: "Sosial", desc: "Mampu berkomunikasi secara efektif dengan orang tua dan masyarakat.", icon: "Users", color: "bg-p-amber text-p-amber-text" },
+    { title: "Kepribadian", desc: "Menjadi teladan dengan integritas dan etika yang kuat.", icon: "Shield", color: "bg-p-rose text-p-rose-text" }
+  ],
+  karakter: ["Inovatif", "Empati", "Disiplin", "Kolaboratif", "Reflektif"]
+};
+
+// 2. Tambahkan Data E-Portfolio 2
+export const EPORTFOLIO_2_DATA = {
+  refleksi: {
+    pembelajaran: "Selama tahapan PPL Terbimbing, saya belajar bahwa menjadi guru bukan sekadar penguasaan materi, melainkan seni membangun hubungan dan memahami psikologi peserta didik. Saya belajar merancang modul ajar yang adaptif, mengelola dinamika kelas yang heterogen, hingga melakukan asesmen yang autentik.",
+    tantangan: "Pengalaman paling menantang adalah saat menghadapi rendahnya motivasi belajar pada jam pelajaran terakhir di kelas X. Solusi yang saya lakukan adalah dengan mengubah skenario pembelajaran menjadi berbasis game edukatif (gamifikasi) menggunakan Wordwall dan memberikan ice breaking yang relevan dengan materi.",
+    umpanBalik: "Saran konstruktif dari diskusi akhir menekankan pada penguatan manajemen waktu dan pemberian instruksi kelompok yang lebih spesifik. Hal ini menjadi catatan utama saya untuk persiapan PPL Mandiri agar dapat mengelola transisi antar kegiatan dengan lebih smooth."
+  },
+  filosofi: [
+    "Prinsip pengajaran saya berakar pada pemikiran Ki Hajar Dewantara, yakni pendidikan sebagai proses 'menuntun'. Saya meyakini bahwa setiap peserta didik lahir dengan kodratnya masing-masing. Tugas saya sebagai pendidik bukan untuk mengubah kodrat tersebut, melainkan menuntun tumbuh kembangnya agar mereka mencapai keselamatan dan kebahagiaan setinggi-tingginya baik sebagai manusia maupun anggota masyarakat. Dalam praktik PPL, nilai 'Ing Ngarsa Sung Tulada' saya terapkan dengan menjadi teladan dalam kedisiplinan dan integritas digital di kelas Informatika.",
+    "Pembelajaran yang saya bangun mengedepankan kemerdekaan belajar. Saya meyakini bahwa proses konstruksi pengetahuan akan terjadi lebih optimal jika siswa merasa aman dan nyaman (Psychological Safety). Saya menghubungkan teori Konstruktivisme Vygotsky dengan konsep 'Kodrat Zaman' KHD, di mana saya mengintegrasikan teknologi terkini (TPACK) dalam pembelajaran namun tetap berpijak pada nilai-nilai karakter luhur. Pendidik harus mampu bergerak dinamis menyesuaikan zaman tanpa meninggalkan akar budaya bangsa.",
+    "Sebagai guru profesional, saya memegang teguh nilai empati dan refleksi. Setiap interaksi di kelas adalah proses belajar bagi saya. Saya percaya bahwa pendidikan yang berpihak pada peserta didik adalah kunci utama transformasi pendidikan. Ke depannya, saya berkomitmen untuk terus berinovasi dalam menciptakan media pembelajaran yang inklusif, sehingga setiap anak, dengan segala keunikan dan latar belakangnya, memiliki kesempatan yang sama untuk bersinar dan menjadi versi terbaik dari dirinya sendiri."
+  ]
+};
